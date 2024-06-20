@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel">
+    <meta name="description" content="Teste de HTML5">
+    <meta name="keywords" content="html5, CSS">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Projeto CodeForge</title>
+</head>
+
+<body>
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
+        <header class="header container">
+            <img src="imagens/CodeForge.png" class="CodeForgeLogo" alt="CodeForge">
+
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#escola">Nossa Escola</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-hero">
+        <section class="container heroBanner">
+            <div class="header_content">
+                <h1 class="hero_title">O saber inspira
+                    <span class="upper">novidades!</span>
+                </h1>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <img src="imagens/HeroImage.png" alt="Modelo">
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="cursos">
+        <section class="cursos container">
+            <h2 class="section_title">Principais Cursos</h2>
+            <div class="cursosContainer">
+                <article class="curso_card">
+                    <img src="imagens/note-model.jpg" alt="Curso design">
+                    <div class="cursos_card_content">
+                        <h3>Web Design</h3>
+                        <p>
+                            O curso de Web Design capacita os alunos a criar designs funcionais
+                            e visualmente atraentes para websites e aplicativos móveis.
+                            Cobrindo desde os fundamentos do design até o uso de ferramentas:
+                            Como HTML, CSS, e softwares de design gráfico.
+
+                            Este curso é ideal para quem busca iniciar ou aprimorar sua carreira em design digital,
+                            preparando-os com as habilidades necessárias para competir no mercado de trabalho moderno.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="curso_card">
+                    <img src="imagens/code-model.jpg" alt="Curso Front-end">
+                    <div class="cursos_card_content">
+                        <h3>Front End Developer</h3>
+                        <p>
+                            O curso Front End Developer ensina HTML, CSS e JavaScript,
+                            permitindo aos alunos criar interfaces web interativas e acessíveis.
+                            Com foco em desenvolver habilidades para construir experiências de usuário intuitivas
+                            e responsivas, o curso prepara profissionais para atuar na criação de sites
+                            e aplicações web modernas, incorporando as melhores práticas de desenvolvimento front-end
+                            e adaptação às demandas do mercado digital atual.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="curso_card">
+                    <img src="imagens/code-model2.jpg" alt="Curso Back-end">
+                    <div class="cursos_card_content">
+                        <h3>Back End Developer</h3>
+                        <p>
+                            O curso Back End Developer capacita os participantes a dominar uma linguagem
+                            de programação para o desenvolvimento da lógica e funcionalidades dos sistemas web
+                            e aplicativos. Com ênfase na integração de bancos de dados
+                            e na compreensão do protocolo HTTP, os alunos aprendem a construir
+                            e gerenciar servidores, garantindo a eficiência e segurança das aplicações online.
+                            Este curso é ideal para quem busca especialização em tecnologias fundamentais para
+                            o funcionamento dos bastidores de sites e serviços web.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <a href="#" class="btn section_btn">Ver mais cursos</a>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-dark2 wrapperContainer-padded" id="escola">
+        <section class="container escola">
+            <img src="imagens/nossa-escola.png" alt="Mulher jovem feliz">
+            <div class="escola_content">
+                <h2 class="escola_title">Sobre nosso Curso</h2>
+                <p>
+                    Um curso abrangente como o de Desenvolvedor Full Stack
+                    é ideal para aqueles que desejam dominar tanto o Front End quanto o Back End.
+                    Este curso combina o aprendizado de linguagens como HTML, CSS e JavaScript
+                    para criação de interfaces de usuário interativas e responsivas,
+                    com a profundidade necessária em tecnologias back-end,
+                    como Node.js e bancos de dados SQL e NoSQL.
+                    Os alunos também exploram frameworks populares como React e Express,
+                    obtendo uma visão holística do desenvolvimento de aplicativos web modernos
+                    e sua integração em ambientes de produção.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="contatos">
+        <section class="container">
+            <h2 class="section_title">Contatos</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11400.335673017391!2d-47.87688422930182!3d-15.801901807304949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slatitude%20longitude%20google%20maps!5e0!3m2!1spt-BR!2sbr!4v1718906994002!5m2!1spt-BR!2sbr"
+                width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <address class="contatos_address">Esplanada dos Ministérios
+                Brasília, DF, 70050-000
+                <br>
+                Tel.: +351 21 123 456<br>
+                E-mail: contato@CodeForge.com
+            </address>
+        </section>
+    </div>
+
+    <div class="wrapperContainer wrapperContainer-dark">
+        <footer class="footer">Desenvolvido por <a href="https://github.com/BEROMEIRO">BEROMEIRO</a></footer>
+    </div>
+</body>
+
+</html>
